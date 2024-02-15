@@ -6,7 +6,7 @@ from langchain_google_genai import GoogleGenerativeAI
 
 from file_tools import FileTools
 
-GOOGLE_API_KEY = "AIzaSyATMdUtb-IcqTrX-_DSM88-CPY_rD4AmMU"
+GOOGLE_API_KEY = "api-key"
 llm = GoogleGenerativeAI(model="gemini-pro", google_api_key=GOOGLE_API_KEY)
 
 idea_analyst = Agent(
